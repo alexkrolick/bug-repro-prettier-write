@@ -1,0 +1,13 @@
+{
+  "name": "bug-repro-prettier-write",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.14.3"
+  },
+  "scripts": {
+    "format:md": "prettier --write '**/*.md'",
+    "format:md-safe": "prettier --write --parser=markdown '**/*.md'"
+  }
+}
